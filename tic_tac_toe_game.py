@@ -70,6 +70,8 @@ def tictactoe_logic(board):
         for row in range(0,3):
             print(board[row])
 
+        row_checker(board)
+
         user_2 = input("Player 2 enter coordinates for your move in form 'X,Y'\n")
         user_2_return = split_input(user_2)
         int_user_2_x = user_2_return[0]
